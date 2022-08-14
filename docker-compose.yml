@@ -46,7 +46,7 @@ services:
       - back-tier
 
   redis:
-    image: redis:5.0-alpine3.10
+    image: redis:7.0.4-alpine3.16
     volumes:
       - "./healthchecks:/healthchecks"
     healthcheck:
